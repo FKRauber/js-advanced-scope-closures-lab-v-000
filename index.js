@@ -8,18 +8,3 @@ function produceDrivingRange(blockRange) {
   };
 }
 
-function produceTipCalculator(){
-  return function(){
-
-  };
-}
-
-function createDriver(){
-  return class {
-    let driverId = 0;
-    constructor(name){
-        this.name = name;
-        this.id = ++driverId;
-    }
-  };
-}
