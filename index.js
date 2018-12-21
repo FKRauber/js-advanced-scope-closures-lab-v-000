@@ -17,7 +17,7 @@ function produceDrivingRange(blockRange){
 
 function produceTipCalculator(billPrice){
   return function(tip){
-
+    return billPrice * tip;
   };
 }
 
